@@ -58,6 +58,18 @@ menu:
     url:               /about/
   - title:	       Test
     url:	       /about/
+  - title:	       Machine Learning
+    url:	       /about/
+  - title:	       Raspberry Pi
+    url:	       /about/
+  - title:	       Business Analysis
+    url:	       /about/
+  - title:	       Real Estate
+    url:	       /about/
+  - title:	       book
+    url:	       /about/
+  - title:	       etc
+    url:	       /about/
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 # legal:
@@ -67,7 +79,7 @@ menu:
 #     url:               /cookies-policy/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2018. All rights reserved.
+copyright:             © 2020. All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
@@ -309,7 +321,7 @@ plugins:
 #   name:                <firstname> <lastname>
 #   links:
 #     - https://twitter.com/<username>
-#     - https://github.com/<username>
+     - https://github.com/wsy8029
 
 
 # Other Plugins
