@@ -61,7 +61,7 @@ menu:
   - title:	       Machine Learning
     url:	       /about/
     submenu:
-    - title:	       서브메뉴 테스트
+    - title:	       submenu test
     - url:	       /about/
   - title:	       Raspberry Pi
     url:	       /about/
