@@ -321,7 +321,7 @@ plugins:
 #   name:                <firstname> <lastname>
 #   links:
 #     - https://twitter.com/<username>
-     - https://github.com/wsy8029
+#     - https://github.com/wsy8029
 
 
 # Other Plugins
