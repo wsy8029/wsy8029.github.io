@@ -1,63 +1,103 @@
-// Copyright (c) 2019 Florian Klampfer <https://qwtel.com/>
-//
-// This program is free software: you can redistribute it and/or modify
-// it under the terms of the GNU General Public License as published by
-// the Free Software Foundation, either version 3 of the License, or
-// (at your option) any later version.
-//
-// This program is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-// GNU General Public License for more details.
-//
-// You should have received a copy of the GNU General Public License
-// along with this program.  If not, see <http://www.gnu.org/licenses/>.
+// Mixins
+// ---------------------------------------/
 
-body {
-  --code-font-family: #{$code-font-family};
-
-  --font-weight: #{$font-weight};
-  --font-weight-bold: #{$font-weight-bold};
-  --font-weight-heading: #{$font-weight-heading};
-
-  --text-muted: #{$gray};
-  --gray-bg: #{$gray-bg};
-  --gray-text: #{$gray-text};
-  --menu-text: #{$menu-text};
-  --body-color: #{$body-color};
-  --body-bg: #{$body-bg};
-  --border-color: #{$border-color};
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
 }
 
-@mixin aspect-ratio($width, $height) {
-  position: relative;
+@mixin transition($value) {
+  -webkit-transition: $value;
+  -moz-transition: $value;
+  transition: $value;
+}
 
-  &::before {
-    display: block;
+// Clearfix
+//
+// Clears floats via mixin (avoid using as a class).
+
+@mixin clearfix {
+  &:before {
+    display: table;
     content: "";
-    width: 100%;
-    padding-top: ($height / $width) * 100%;
   }
 
-  > * {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+  &:after {
+    display: table;
+    clear: both;
+    content: "";
   }
 }
 
-.clearfix {
-  content: "";
-  display: table;
-  clear: both;
+// media querie tools
+
+@mixin media_max($screen_width) {
+  @media (max-width: $screen_width) { @content; }
 }
 
-.color-transition {
-  transition: background-color 1s ease, border-color 1s ease;
+@mixin media_min($screen_width) {
+  @media (min-width: $screen_width) { @content; }
 }
 
-.no-color-transition {
-  transition: none!important;
+@mixin media_larger_than_mobile {
+  @media (min-width: 600px) { @content; }
+}
+
+@mixin media_mobile {
+  @media (max-width: 600px) { @content; }
+}
+
+// type utilities
+
+@mixin sans {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@mixin sans_light {
+  @include sans;
+  font-weight: 300;
+}
+
+@mixin sans_regular {
+  @include sans;
+  font-weight: 400;
+}
+
+@mixin sans_bold {
+  @include sans;
+  font-weight: 700;
+}
+
+@mixin sans_extrabold {
+  @include sans;
+  font-weight: 800;
+}
+
+@mixin serif {
+  font-family: "Lora", "Minion Pro", Palatino, Georgia, serif;
+}
+
+@mixin serif_regular {
+  @include serif;
+  font-weight: 400;
+}
+
+@mixin serif_bold {
+  @include serif;
+  font-weight: 700;
+}
+
+// layout
+
+@mixin section_border {
+  border-top: 4px solid #c7c7c7;
+  border-bottom: 2px solid #c7c7c7;
+  padding: .2rem 0 .4rem;
+}
+
+@mixin section_border_thin {
+  border-top: 1px solid #c7c7c7;
+  border-bottom: 1px solid #c7c7c7;
+  padding: .2rem 0 .2rem;
 }
