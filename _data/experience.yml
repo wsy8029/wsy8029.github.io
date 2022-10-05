@@ -1,5 +1,5 @@
 # Jobs
-# VP of Global Communications
+# Luxrobo
 - company: Luxrobo
   position: Machine Learning Engineer
   duration: Dec, 2019 &mdash; Present (전문연구요원)
@@ -14,11 +14,16 @@
           <li>특허 출원 3건</li>
           </ul>
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
+# Yonsei
+- company: 연세대학교 Information System Intelligence 연구실
+  position: 연구원 / 랩장
+  duration:  Aug, 2017 &mdash; Aug, 2019
   summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+          <ul class="resume-item-list">
+          <li>국가 과제 / 연구 용역 수행</li>
+          <li>[PM]과제 컨소시엄 관리 / 연구 행정 총괄</li>
+          <li>ㅇㅇ</li>
+          </ul>
 
 
 # Communications Coordinator
