@@ -1,7 +1,15 @@
 # Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
+- degree: M.S. IN Information Systems
+  uni: Yonsei University
+  year: 2017 &mdash; 2019
+  awards:
+    - award: Thesis Topic: Classification of civil appeals using Hierarchical Attention Network Focusing on Seoul civil appeals Data
+    - award: Thesis Advisor: Jung-Hun Lee
+  summary: If you had any meaningful roles at college, feel free to write about them here
+
+- degree: B.S. in Computer Engineering
+  uni: Yonsei University
+  year: 2011 &mdash; 2018
   awards:
     - award: Summa Cumme Laude graduate
   summary: If you had any meaningful roles at college, feel free to write about them here
