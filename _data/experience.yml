@@ -1,26 +1,10 @@
-# Jobs
-# Luxrobo
-- company: Luxrobo
-  position: Machine Learning Engineer
-  duration: Dec, 2019 &mdash; Present (전문연구요원)
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	
-          <ul class="resume-item-list">
-          <li>AI 콘텐츠 제작 및 관리 내용</li>
-          <li>스마트 AI 내용.. 하드웨어 플랫폼 및 미들웨어 개발</li>
-          <li>음성 코딩</li>
-          <li>AI 챔피언십 내용</li>
-          <li>영어 발음 평가 시스템</li>
-          <li>과제 3건 완료</li>
-          <li>특허 출원 3건</li>
-          </ul>
-
-# Yonsei
-- company: 연세대학교 Information System Intelligence 연구실
-  position: 연구원 / 랩장
-  duration:  Aug, 2017 &mdash; Aug, 2019
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
-          <ul class="resume-item-list">
-          <li><b>[RA]</b>국가 과제 / 연구 용역 수행</li>
-          <li><b>[PM]</b>국가전략 프로젝트 컨소시엄 관리 / 연구 행정 총괄</li>
-          <li><b>[TA]</b>대학원 AWS IoT/AI 신규 강의 기획 및 강의 제작, 실습 진행</li>
-          </ul>
+# Populate with professional experience entries.
+# Example structure:
+# - company: Example Corp
+#   position: Senior Developer
+#   duration: 2021 &mdash; Present
+#   summary: >
+#     One or two sentences summarizing responsibilities and impact.
+#   highlights:
+#     - "Key accomplishment or responsibility."
+[]

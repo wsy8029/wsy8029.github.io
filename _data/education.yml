@@ -1,15 +1,11 @@
-# Degree
-- degree: M.S. IN Information Systems
-  uni: Yonsei University
-  year: 2017 &mdash; 2019
-  awards:
-    - award: Thesis Topic&#58 Classification of civil appeals using Hierarchical Attention Network Focusing on Seoul civil appeals Data
-    - award: Thesis Advisor&#58 Jung-Hun Lee
-  summary: If you had any meaningful roles at college, feel free to write about them here
-
-- degree: B.S. in Computer Engineering
-  uni: Yonsei University
-  year: 2011 &mdash; 2018
-  awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
+# Populate with education history entries.
+# Example structure:
+# - degree: M.S. in Example Field
+#   uni: Example University
+#   location: City, Country
+#   year: 2020 &mdash; 2022
+#   awards:
+#     - "Graduated with honors"
+#   summary: >
+#     Brief description of academic focus or achievements.
+[]
