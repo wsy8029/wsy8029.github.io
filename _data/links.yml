@@ -1,5 +1,6 @@
-# links
-- url: "#"
-  description: Springfield Jazz Enthusiasts
-- url: "#"
-  description: Springfield Young Professionals
+# Populate with additional links to portfolios, profiles, or articles.
+# Example structure:
+# - label: Personal Website
+#   url: https://example.com
+#   description: ""
+[]

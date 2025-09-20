@@ -1,41 +1,11 @@
-# Projects
-# uncomment the urls if you wish to display them, and add your own URL
-
-# ISI Lab
-- project: <b>[연구용역]</b> 시민참여형 커뮤니티 육성 및 활성화 전략수립 연구용역
-  role: 민원 데이터 텍스트 마이닝 및 평가지표 도출
-  duration: Sep 2017 &mdash; Feb 2018
-  # url: "#"
-  description: 대구시 스마트시티 기반 구축을 위한 전략 수립(컨설팅)
-          <ul class="resume-item-list">
-          <li>대구시 현황 분석 및 민원 빅데이터 텍스트마이닝 분석</li>
-          <li>평가지표 도출 및 전략 수립</li>
-          <li>산출물&#58 전략 수립 보고서(380p)</li>
-          </ul>
-
-- project: <b>[연구용역]</b> 시민참여형 커뮤니티 운영 및 관리 연구용역
-  role: 대구시 스마트시티 기반 구축을 위한 시민참여 기반 커뮤니티 운영
-  duration: Jul 2018 &mdash; Nov 2018
-  # url: "#"
-  description: 대구시 스마트시티 기반 구축을 위한 전략 검증
-          <ul class="resume-item-list">
-          <li>대구시 스마트시티 커뮤니티 퍼실리테이터</li>
-          <li>스마트시티 커뮤니티 운영 전략 도출</li>
-          </ul>
-
-- project: <b>[연구용역]</b> 시민참여형 커뮤니티 운영 및 관리 연구용역
-  role: 대구시 스마트시티 기반 구축을 위한 시민참여 기반 커뮤니티 운영
-  duration: Jul 2018 &mdash; Nov 2018
-  # url: "#"
-  description: 대구시 스마트시티 기반 구축을 위한 전략 검증
-          <ul class="resume-item-list">
-          <li>대구시 스마트시티 커뮤니티 퍼실리테이터</li>
-          <li>스마트시티 커뮤니티 운영 전략 도출</li>
-          </ul>
-
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+# Populate with project highlights.
+# Example structure:
+# - project: Sample Project
+#   role: Lead Developer
+#   duration: 2020
+#   url: https://example.com
+#   summary: >
+#     Overview of the problem, solution, and outcomes.
+#   highlights:
+#     - "Notable detail or achievement."
+[]

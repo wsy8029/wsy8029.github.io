@@ -1,4 +1,5 @@
-# Interests
-- description: Human rights and world affairs
-- description: Music (baritone saxiphonist)
-- description: Linguistics
+# Populate with personal or professional interests.
+# Example structure:
+# - interest: Example Interest
+#   summary: ""
+[]
